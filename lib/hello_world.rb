@@ -10,4 +10,8 @@ class ConversationSports
   get '/index' do
     HelloWorld::THING
   end
+
+  not_found do
+    'I haven\'t created this page yet'
+  end
 end

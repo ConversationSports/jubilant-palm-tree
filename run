@@ -1,2 +1,2 @@
-#/bin/bash
-trinidad -r config.ru
+#/usr/bin/env bash
+jruby -S trinidad -r config.ru
