@@ -1,2 +1,2 @@
 #/usr/bin/env bash
-jruby -S trinidad -r config.ru
+jruby -S puma 

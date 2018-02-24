@@ -1,4 +1,0 @@
----
-  jruby_max_runtimes: 1
-  rackup: config.ru
-  port: 4243

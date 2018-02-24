@@ -1,15 +1,15 @@
 require 'bundler/setup'
 require 'sinatra'
-require 'trinidad'
+require 'puma'
 
 Bundler.require(:default)
 
 $: << File.dirname(__FILE__)
 
-class ConversationSports < Sinatra::Application
-
+class ConversationSports < Sinatra::Base
   configure do
-    set :server, :trinidad
+    set :port, 4242
+    set :server, :puma
   end
 end
 
