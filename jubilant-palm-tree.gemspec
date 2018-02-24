@@ -1,9 +1,10 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'version'
 
 Gem::Specification.new do |spec|
   spec.name          = "jubilant-palm-tree"
-  spec.version       = '0.0.1'
+  spec.version       = ConversationSports::VERSION
   spec.authors       = ["Michael Polzin"]
   spec.email         = ["polzin13@gmail.com"]
 
