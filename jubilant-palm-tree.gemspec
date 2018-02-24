@@ -4,7 +4,7 @@ require 'version'
 
 Gem::Specification.new do |spec|
   spec.name          = "jubilant-palm-tree"
-  spec.version       = ConversationSports::VERSION
+  spec.version       = ConversationSportsVersion::VERSION
   spec.authors       = ["Michael Polzin"]
   spec.email         = ["polzin13@gmail.com"]
 

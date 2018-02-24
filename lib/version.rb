@@ -1,3 +1,3 @@
-module ConversationSports
-  VERSION='0.0.1'
+module ConversationSportsVersion
+  VERSION = '0.0.1'
 end
